@@ -1,0 +1,27 @@
+.content-block{
+    border: black solid 1px;
+    margin-left: 280px;
+    width: 80%;
+    position: absolute;
+    top: 8px;
+}
+
+.monstor-block{
+    border: black solid 1px;
+    margin-left: 45px;
+    margin-bottom: 45px;
+    width: 340px;
+    float: left;
+}
+
+.image-monstor{
+    border: black solid 1px;
+    width: 300px;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.link-monstor{
+    text-align: center;
+}

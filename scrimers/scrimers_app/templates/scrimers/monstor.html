@@ -1,0 +1,15 @@
+{% extends 'scrimers/nvgnT.html' %}
+{% load static %}
+
+{% block styles %}
+    <link rel="stylesheet" href="{% static 'scrimers/css/monstor.css' %}">
+{% endblock %}
+
+{% block title %}{{ monstor.title }}{% endblock %}
+
+{% block content %}
+    <div class="content-block">
+        <h1 class="monstor-title">{{ monstor.title }}</h1>
+        <p class="monstor-discription">{{ monstor.disctiption }}</p>
+    </div>
+{% endblock %}

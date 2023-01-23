@@ -1,0 +1,17 @@
+.content-block{
+    border: black solid 1px;
+    margin-left: 380px;
+    height: 600px;
+    width: 1000px;
+    position: absolute;
+    top: 8px;
+}
+
+.site-discription-block{
+    border: black solid 1px;
+    margin: 20px;
+}
+
+h1{
+    text-align: center;
+}

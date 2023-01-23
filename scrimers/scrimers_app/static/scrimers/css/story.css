@@ -1,0 +1,15 @@
+.content-bloc{
+    border: black solid 1px;
+    margin-left: 280px;
+    width: 80%;
+    position: absolute;
+    top: 8px;
+}
+
+.title-story{
+    text-align: center;
+}
+
+.text-story{
+    margin: 20px;
+}

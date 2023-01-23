@@ -1,0 +1,18 @@
+{% extends 'scrimers/nvgnT.html' %}
+{% load static %}
+
+{% block styles %}
+    <link rel="stylesheet" href="{% static 'scrimers/css/storyAdd.css' %}">
+{% endblock %}
+
+{% block title %}Рассказать историю{% endblock %}
+
+{% block content %}
+<div class="content-block">
+    {{ form.title }} <br>
+    {{ form.date }} <br>
+    {{ form.discription }} <br>
+    {{ form.text }} <br>
+    <input type="submit" value="Рассказать" class="submit-story">
+</div>
+{% endblock %}

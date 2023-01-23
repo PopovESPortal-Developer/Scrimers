@@ -1,0 +1,15 @@
+{% extends 'scrimers/nvgnT.html' %}
+{% load static %}
+
+{% block styles %}
+    <link rel="stylesheet" href="{% static 'scrimers/css/story.css' %}">
+{% endblock %}
+
+{% block title %}{{ story.title }}{% endblock %}
+
+{% block content %}
+<div class="content-bloc">
+    <h1 class="title-story">{{ story.title }}</h1>
+    <p class="text-story">{{ story.text }}</p>
+</div>
+{% endblock %}

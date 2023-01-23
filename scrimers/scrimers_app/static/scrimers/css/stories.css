@@ -1,0 +1,34 @@
+.content-bloc{
+    border: black solid 1px;
+    margin-left: 280px;
+    width: 80%;
+    position: absolute;
+    top: 8px;
+}
+
+.title-site{
+    text-align: center;
+}
+
+.story-block{
+    border: black solid 1px;
+    margin: 20px;
+}
+
+.title-story{
+    text-align: center;
+}
+
+.date-story{
+    margin-left: 20px;
+}
+
+.text-story{
+    margin: 20px;
+    text-align: justify;
+}
+
+.link-story{
+    margin-left: 1000px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,22 @@
+{% extends 'scrimers/nvgnT.html' %}
+{% load static %}
+
+{% block styles %}
+    <link rel="stylesheet" href="{% static 'scrimers/css/stories.css' %}">
+{% endblock %}
+
+{% block title %}Расказы о зле{% endblock %}
+
+{% block content %}
+<div class="content-bloc">
+    <h1 class="title-site">Рассказы о зле</h1>
+    {% for story in stories %}
+        <div class="story-block">
+            <h1 class="title-story">{{ story.title }}</h1>
+            <p class="date-story">{{ story.date }}</p>
+            <p class="text-story">{{ story.text }}</p>
+            <p class="link-story"><a href="{% url 'story' story.id %}">Читать рассказ</a></p>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,14 @@
+.navigation-block{
+    border: black solid 1px;
+    width: 250px;
+    height: 700px;
+}
+
+.links-block{
+    border: black solid 1px;
+    margin-left: 20px;
+}
+
+h3{
+    margin-left: 70px;
+}

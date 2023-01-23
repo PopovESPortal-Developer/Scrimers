@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'scrimers/css/nvgn.css' %}">
+    {% block styles %}{% endblock %}
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <div class="navigation-block">
+        <h3>Навигация</h3>
+        <div class="links-block">
+            <p><a href="{% url 'home' %}">Домашняя страница</a></p>
+            <p><a href="{% url 'stories' %}">Расказы о зле</a></p>
+            <p><a href="{% url 'monstors' %}">Монстрятина</a></p>
+            <p><a href="{% url 'storyAdd' %}">Поведать историю</a></p>
+            <p><a href="">Создать монстра</a></p>
+        </div>
+    </div>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
